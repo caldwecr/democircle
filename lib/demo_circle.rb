@@ -1,5 +1,7 @@
 class DemoCircle
   def self.hi
-    puts "This is using CircleCI to run tests with no effort!"
+    message = "This is using CircleCI to run tests with no effort!"
+    puts message
+    message
   end
 end

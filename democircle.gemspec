@@ -7,6 +7,7 @@ Gem::Specification.new do |s|
   s.authors     = ["Courtland Caldwell"]
   s.email       = 'courtland@mattermark.com'
   s.files       = ["lib/demo_circle.rb"]
+  s.add_development_dependency "rspec", "~> 3.1"
   s.homepage    =
       'http://rubygems.org/gems/hola'
   s.license       = 'MIT'
